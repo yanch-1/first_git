@@ -1,4 +1,4 @@
-#Write your hw1 in hw1.md
+**Write your hw1 in hw1.md
 1. Learn MarkDown and show all of basic usage in the ShortQuestions/README.md
 	1. https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 2. practice git using the platform.list the git commands you learned
@@ -28,6 +28,7 @@
 9. What is maven role? what it be used to do?
   Maven is a open-source build tool to build, publish, and deploy several projects at once for better project management. The tool provides allows developers to build and document the lifecycle framework. 
 10. What is the lifecycle of maven? could you tell me the details ?
+
   *Validate, Compile, Test, Package, Integration test, Verify, Install and Deploy.*
   
   Validate: This step validates if the project structure is correct. For example – It checks if all the dependencies have been downloaded and are available in the local repository.
@@ -49,24 +50,9 @@
 13. In chuwa1010, MavenProject directory, create a maven Module using Intellij, named it as belows:
 	1. groupID:com.chuwa.learn
 	2. artifactID:java-core
-  
-  <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+  ![Image](https://user-images.githubusercontent.com/78085774/195385247-886c65f2-5a02-4c1c-b682-c113e12ee437.jpg)
 
-    <groupId>com.chuwa.learn</groupId>
-    <artifactId>java-core</artifactId>
-    <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
-</project>
 
 14. Do Code Review: Go over the PRs in your repo, tried to leave some useful or useful comments in other
 students' PR, please don't merge it.
