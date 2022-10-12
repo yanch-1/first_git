@@ -1,4 +1,4 @@
-**Write your hw1 in hw1.md
+**Write your hw1 in hw1.md**
 1. Learn MarkDown and show all of basic usage in the ShortQuestions/README.md
 	1. https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 2. practice git using the platform.list the git commands you learned
@@ -45,6 +45,7 @@
   *install will compile and package, but it will also put the package in your local repository. This will make it so other projects can refer to it and grab it from your local repository.
 
 12. What is plugins in maven, list some plugins.
+
   Plugins are the central feature of Maven that allow for the reuse of common build logic across multiple projects. 
   [Maven Plugins](https://maven.apache.org/plugins/)
 13. In chuwa1010, MavenProject directory, create a maven Module using Intellij, named it as belows:
