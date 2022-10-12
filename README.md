@@ -5,11 +5,11 @@
 	1. https://learngitbranching.js.org/
 	commit; branch; merge; rebase; HEAD; ^; ~(*); cherry-pick; tag; describe; 
 3. What is the basic steps to init a git repo in you local?
-	Go into the directory containing the project.
-	Type git init.
-	Type git add to add all of the relevant files.
-	You’ll probably want to create a .gitignore file right away, to indicate all of the files you don’t want to track. Use git add .gitignore, too.
-	Type git commit.
+	>Go into the directory containing the project.
+	>Type git init.
+	>Type git add to add all of the relevant files.
+	>You’ll probably want to create a .gitignore file right away, to indicate all of the files you don’t want to track. Use git add .gitignore, too.
+	>Type git commit.
 
 4. How to clone a repo from Github?
 	git clone url
